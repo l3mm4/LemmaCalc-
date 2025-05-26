@@ -1,12 +1,11 @@
 # Sean Jette
 # Python Calculator v0.4
 
+import pydoc
 import ast
 import operator
 import math
 import re
-
-# import sys
 import time
 import threading
 import os
@@ -90,6 +89,14 @@ def main():
                 print("History:")
                 for i, (expr, res) in enumerate(history, 1):
                     print(f"{i}: {expr} = {res}")
+            continue
+
+        if user_input.lower() == "man":
+            show_doc("man.txt")
+            continue
+
+        if user_input.lower() == "tldr":
+            show_doc("tldr.txt")
             continue
 
         if user_input == "":
@@ -407,6 +414,16 @@ def print_banner(skip_event):
 ╚════════════════════════════════════════════════════════════════════════════╝
 """
     typewriter_print(banner, delay=0.002, skip_event=skip_event)
+
+
+def show_doc(filename):
+    doc_path = os.path.join(os.path.dirname(__file__), "docs", filename)
+    try:
+        with open(doc_path, "r") as f:
+            content = f.read()
+        pydoc.pager(content)
+    except FileNotFoundError:
+        print(f"Documentation file '{filename}' not found.")
 
 
 if __name__ == "__main__":

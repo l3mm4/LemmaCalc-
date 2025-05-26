@@ -1,0 +1,79 @@
+LEMMA CALCULATOR(1)                         User Commands                         LEMMA CALCULATOR(1)
+
+NAME
+    LemmaCalc — a user-friendly command-line calculator with expression history, tab-completion,
+    factorial support, assignment syntax, and built-in documentation.
+
+SYNOPSIS
+    python calc.py
+    ./calc.py
+
+DESCRIPTION
+    LemmaCalc™ is a REPL-based command-line calculator with support for advanced math functions,
+    variable assignments, and a helpful, discoverable interface. It evaluates Pythonic expressions
+    safely and prints formatted results.
+
+FEATURES
+    • REPL input with expression parsing
+    • Assignment support (e.g., x = 5, y = sqrt(x))
+    • Tab-completion for functions like sin, sqrt, log, etc.
+    • Multi-expression input via semicolon (e.g., a=5; b=6; a+b)
+    • Expression history ('history')
+    • Screen clearing ('clear')
+    • Quit command ('q')
+    • Built-in documentation ('man', 'tldr')
+
+COMMANDS
+    q           Quit the program.
+    clear       Clear the screen and re-display instructions.
+    history     Show all previous calculations in this session.
+    man         Show this manual.
+    tldr        Show a brief quick-reference guide.
+
+SUPPORTED FUNCTIONS
+    The following math functions are supported (via the math module):
+
+        sqrt(x)         Square root of x
+        log(x)          Natural logarithm (ln) of x
+        log10(x)        Base-10 logarithm
+        sin(x)          Sine of x (x in radians)
+        cos(x)          Cosine of x (x in radians)
+        tan(x)          Tangent of x (x in radians)
+        factorial(x)    Factorial of x (x must be integer ≥ 0)
+        abs(x)          Absolute value of x
+        pow(x, y)       x raised to the power of y
+        round(x, n)     Round x to n decimal places
+
+EXAMPLES
+    > 2 + 2
+    Result: 4
+
+    > a = 5
+    a = 5
+
+    > b = sqrt(a)
+    b = 2.236...
+
+    > a * b
+    Result: 11.180...
+
+    > history
+    1: 2 + 2 = 4
+    2: a = 5
+    3: b = 2.23606797749979
+    4: a * b = 11.180339887498949
+
+FILES
+    calc.py             The main calculator program.
+    docs/man.txt        This full manual page.
+    docs/tldr.txt       A short quick-reference file.
+
+AUTHOR
+    Sean Jette <l3mm4>
+
+COPYRIGHT
+    LemmaCalc™ v0.4 is released under the MIT License.
+
+SEE ALSO
+    python(1), math(3)
+

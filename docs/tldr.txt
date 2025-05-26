@@ -1,0 +1,28 @@
+LemmaCalc — TLDR
+
+> A REPL calculator that supports Python-like math, variables, history, and more.
+
+Usage:
+  $ python calc.py
+
+Commands:
+  q             Quit the calculator
+  clear         Clear the screen
+  history       Show past expressions
+  man           Show full documentation
+  tldr          Show this TLDR guide
+
+Features:
+  - Math functions: sqrt(x), log(x), sin(x), factorial(x), etc.
+  - Variables: a = 5; b = sqrt(a)
+  - Multi-expr: a=5; b=6; a*b
+  - Result formatting with commas
+
+Example:
+  > x = 1000
+  > sqrt(x)
+  > x * 2
+  > history
+
+Enjoy LemmaCalc™ 🧮
+
