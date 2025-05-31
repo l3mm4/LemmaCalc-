@@ -1,19 +1,19 @@
 
 ````markdown
-# LemmaCalc™ v0.5
+LemmaCalc™ v0.5
 
 **A safe, expressive, and interactive command-line calculator written in Python.**  
 LemmaCalc™ brings tab-completion, variable assignments, advanced math functions, history tracking, and a slick ASCII interface to your terminal.
 
 ---
 
-## 📦 Project Overview
+📦 Project Overview
 
 LemmaCalc™ is a modern REPL-style calculator designed for power users and everyday problem solvers alike. Built on Python’s `ast` for safe expression parsing and `prompt_toolkit` for an intuitive interface, it lets you compute with clarity and flair.
 
 ---
 
-## ✨ Features
+✨ Features
 
 - ✅ **Safe expression evaluation** using Python’s `ast` module  
 - ✅ **REPL interface** with command history and multi-expression input  
@@ -27,9 +27,9 @@ LemmaCalc™ is a modern REPL-style calculator designed for power users and ever
 
 ---
 
-## 🚀 Getting Started
+🚀 Getting Started
 
-### 📥 Installation
+📥 Installation
 
 Clone the repository:
 
@@ -51,7 +51,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-### ▶️ Running the Calculator
+▶️ Running the Calculator
 
 From the project root, launch LemmaCalc with:
 
@@ -61,7 +61,7 @@ python run_calc.py
 
 ---
 
-## 🧠 Built-in Commands
+🧠 Built-in Commands
 
 | Command     | Description                                  |
 | ----------- | -------------------------------------------- |
@@ -74,7 +74,7 @@ python run_calc.py
 
 ---
 
-## 🧮 Supported Math Functions
+🧮 Supported Math Functions
 
 All functions are from Python’s `math` module unless otherwise noted:
 
@@ -89,7 +89,7 @@ All functions are from Python’s `math` module unless otherwise noted:
 
 ---
 
-## 💡 Examples
+💡 Examples
 
 ```text
 > a = 5
@@ -109,7 +109,7 @@ Result: 11.180339887498949
 
 ---
 
-## 📂 Project Structure
+📂 Project Structure
 
 ```
 project_calc/
@@ -136,7 +136,7 @@ project_calc/
 
 ---
 
-## 📦 Future Plans
+📦 Future Plans
 
 * [ ] Package for `pip install lemmacalc`
 * [ ] Add persistent variable support
@@ -145,16 +145,16 @@ project_calc/
 
 ---
 
-## 📝 License
+📝 License
 
 Released under the MIT License.
-© 2025 Sean Jette · LemmaCalc™
+© 2025 l3mm4 · LemmaCalc™
 
 ---
 
 ## 🌐 Author
 
-**Sean Jette**
+**l3mm4**
 📧 [l3mm4x@proton.me](mailto:l3mm4x@proton.me)
 🐙 [github.com/l3mm4](https://github.com/l3mm4)
 
