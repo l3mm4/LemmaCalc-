@@ -1,0 +1,18 @@
+prompt_toolkit
+pip install -r requirements.txt
+
+prompt_toolkit>=3.0.0
+
+# Core interactive CLI
+prompt_toolkit>=3.0.0
+
+# Testing
+pytest>=7.0.0
+
+# Optional formatting/linting tools (add if you use these)
+black>=22.0
+flake8>=5.0
+
+# Packaging (if using pyproject.toml or planning to distribute)
+setuptools>=61
+

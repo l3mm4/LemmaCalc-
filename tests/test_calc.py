@@ -1,5 +1,5 @@
 import unittest
-from calc import evaluate_expression, format_result, variables
+from lemma_calc import evaluate_expression, format_result, variables
 
 
 class CalculatorTestCase(unittest.TestCase):

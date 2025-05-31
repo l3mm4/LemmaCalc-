@@ -1,28 +1,47 @@
-LemmaCalc — TLDR
+LEMMA CALCULATOR - Quick Reference 🧮
 
-> A REPL calculator that supports Python-like math, variables, history, and more.
+COMMON COMMANDS
+  q         Quit the calculator
+  clear     Clear the screen
+  history   Show calculation history
+  man       Show full manual
+  tldr      Show this guide
 
-Usage:
-  $ python calc.py
+KEY FEATURES
+  • Python-like math expressions
+  • Variable assignments (e.g., x = 10)
+  • Multi-expressions on one line (e.g., a=2; b=3; a*b)
+  • Implicit multiplication (e.g., 2π, 3sin(4))
+  • Tab-completion for functions
+  • Postfix factorial syntax (e.g., 5!)
+  • Pretty results with commas
+  • Close match suggestions for mistyped functions
 
-Commands:
-  q             Quit the calculator
-  clear         Clear the screen
-  history       Show past expressions
-  man           Show full documentation
-  tldr          Show this TLDR guide
+SUPPORTED FUNCTIONS
+  sqrt(x), log(x), log10(x), sin(x), cos(x), tan(x), factorial(x), abs(x),
+  pow(x,y), round(x,n), floor(x), ceil(x), exp(x), degrees(x), radians(x), pi, e
 
-Features:
-  - Math functions: sqrt(x), log(x), sin(x), factorial(x), etc.
-  - Variables: a = 5; b = sqrt(a)
-  - Multi-expr: a=5; b=6; a*b
-  - Result formatting with commas
+EXAMPLES
+  > 2 + 2
+  Result: 4
 
-Example:
-  > x = 1000
-  > sqrt(x)
-  > x * 2
-  > history
+  > x = 10
+  x = 10
 
-Enjoy LemmaCalc™ 🧮
+  > y = sqrt(x)
+  y = 3.1622776601683795
+
+  > x * y
+  Result: 31.622776601683793
+
+  > 5!
+  Result: 120
+
+  > round(12345.6789, 1)
+  Result: 12,345.7
+
+  > sin(π/2)
+  Result: 1.0
+
+ENJOY LEMMACALC™ 🧮
 

@@ -1,0 +1,13 @@
+[project]
+name = "lemma_calc"
+version = "0.5.0"
+description = "A terminal calculator with smart features and math utilities"
+authors = [{name = "Sean Jette", email = "N/A"}]
+requires-python = ">=3.8"
+
+[tool.setuptools]
+packages = ["lemma_calc"]
+
+[project.scripts]
+lemma-calc = "lemma_calc.main:main"
+
