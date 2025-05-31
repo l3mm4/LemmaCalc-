@@ -2,7 +2,7 @@
 ````markdown
 LemmaCalc™ v0.5
 
-**A safe, expressive, and interactive command-line calculator written in Python.**  
+A safe, expressive, and interactive command-line calculator written in Python.  
 LemmaCalc™ brings tab-completion, variable assignments, advanced math functions, history tracking, and a slick ASCII interface to your terminal.
 
 ---
@@ -15,15 +15,15 @@ LemmaCalc™ is a modern REPL-style calculator designed for power users and ever
 
 ✨ Features
 
-- ✅ **Safe expression evaluation** using Python’s `ast` module  
-- ✅ **REPL interface** with command history and multi-expression input  
-- ✅ **Tab-completion** for math functions and constants  
-- ✅ **Variable support** (`x = 5`, `y = sqrt(x)`)  
-- ✅ **Built-in commands** like `history`, `clear`, `man`, and `tldr`  
-- ✅ **Dozens of math functions**, including `sqrt`, `log`, `sin`, `factorial`, `degrees`, and more  
-- ✅ **Formatted output** with thousands separators  
-- ✅ **Colorized results and errors** for better readability  
-- ✅ **Stylized ASCII welcome banner**
+- ✅ Safe expression evaluation** using Python’s `ast` module  
+- ✅ REPL interface with command history and multi-expression input  
+- ✅ Tab-completion for math functions and constants  
+- ✅ Variable support (`x = 5`, `y = sqrt(x)`)  
+- ✅ Built-in commands like `history`, `clear`, `man`, and `tldr`  
+- ✅ Dozens of math functions, including `sqrt`, `log`, `sin`, `factorial`, `degrees`, and more  
+- ✅ Formatted output with thousands separators  
+- ✅ Colorized results and errors for better readability  
+- ✅ Stylized ASCII welcome banner
 
 ---
 
@@ -152,9 +152,9 @@ Released under the MIT License.
 
 ---
 
-## 🌐 Author
+🌐 Author
 
-**l3mm4**
+l3mm4
 📧 [l3mm4x@proton.me](mailto:l3mm4x@proton.me)
 🐙 [github.com/l3mm4](https://github.com/l3mm4)
 
