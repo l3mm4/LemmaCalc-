@@ -35,7 +35,6 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/l3mm4/LemmaCalc-.git
-cd project_calc
 ````
 
 Create a virtual environment (recommended):
